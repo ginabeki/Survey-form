@@ -1,6 +1,6 @@
 ##### What does this PR do?
 
-##### What is the story id for this story?
+##### What are the relevant user stories?
 
 ##### Any blockers/questions?
 
