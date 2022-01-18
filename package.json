@@ -1,0 +1,22 @@
+{
+  "name": "survey-form",
+  "version": "1.0.0",
+  "description": "Survey-form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginabeki/Survey-form.git"
+  },
+  "author": "Gina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginabeki/Survey-form/issues"
+  },
+  "homepage": "https://github.com/ginabeki/Survey-form#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
