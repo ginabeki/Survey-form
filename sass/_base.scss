@@ -1,16 +1,15 @@
-
-COLORS
-
-$color-primary:#031A6B;
-
-$color-secondary:#D7263D;
-
-$color-white:#fff;
-$color-black:#000;
-
+// COLORS
+$color-primary: #031a6b;
+$color-secondary: #d7263d;
+$color-white: #fff;
+$color-black: #000;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
 }
