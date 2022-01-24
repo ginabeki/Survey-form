@@ -7,11 +7,14 @@
 #title {
   text-align: center;
   color: #fff;
-  padding-top: 2em; }
+  padding-top: 2em;
+  font-weight: 800;
+  text-transform: uppercase; }
 
 #description {
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  font-weight: 700; }
 
 #video-background {
   width: 100vw;
