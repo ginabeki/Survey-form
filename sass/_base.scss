@@ -10,3 +10,11 @@ $color-black: #000;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+label {
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
