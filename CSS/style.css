@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif; }
 
+label {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 0.5rem; }
+
 #title {
   text-align: center;
   color: #fff;
@@ -13,8 +20,10 @@
 
 #description {
   text-align: center;
-  color: #fff;
-  font-weight: 700; }
+  color: #031a6b;
+  font-weight: 700;
+  padding-bottom: 1em;
+  font-size: 1 rem; }
 
 #video-background {
   width: 100vw;
@@ -33,6 +42,7 @@
   padding: 2rem 1rem;
   width: 50%;
   margin: 0 auto;
+  border-radius: 2%;
   opacity: 0.6; }
 
 .form-control {
@@ -44,6 +54,10 @@
   color: #000;
   background-color: #fff;
   background-clip: padding-box; }
+
+.form-control:focus {
+  border-color: #031a6b;
+  outline: 0; }
 
 .form-group {
   margin: 0 auto 2rem auto;

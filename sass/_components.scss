@@ -16,6 +16,7 @@
   padding: 2rem 1rem;
   width: 50%;
   margin: 0 auto;
+  border-radius: 2%;
   opacity: 0.6;
 }
 
@@ -28,6 +29,10 @@
   color: $color-black;
   background-color: $color-white;
   background-clip: padding-box;
+}
+.form-control:focus {
+  border-color: $color-primary;
+  outline: 0;
 }
 
 .form-group {
