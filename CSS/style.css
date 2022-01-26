@@ -88,10 +88,12 @@ p {
   background-color: #d7263d;
   color: #fff;
   text-transform: uppercase;
-  padding: 8px 100px;
+  width: 75%;
+  height: 3.5rem;
+  padding: 0.375rem 0.75rem;
   text-align: center;
   font-size: 1rem;
-  margin-left: 135px;
   display: inline-block;
   margin-top: 70px;
+  margin-left: 25px;
   border-radius: 8px; }
