@@ -82,3 +82,11 @@ p {
   padding: 0.7rem;
   resize: vertical;
   border-radius: 0.5rem; }
+
+.submit-button {
+  background-color: #d7263d;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 1.5rem; }

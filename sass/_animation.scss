@@ -1,1 +1,9 @@
 // Submit button animation elements will appear here
+.submit-button {
+  background-color: $color-secondary;
+  color: $color-white;
+  text-transform: uppercase;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 1.5rem;
+}
