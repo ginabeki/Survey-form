@@ -18,3 +18,18 @@ label {
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
+
+input,
+textarea {
+  margin: 7px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+p {
+  color: $color-white;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}

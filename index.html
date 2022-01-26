@@ -39,6 +39,33 @@
           <input type="tel" id="number" placeholder="Enter your phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" min="10" max="10" required class="form-control"/>
         </div>
       </div>
+      <div class="form-group">
+        <label for="role" id="dropdown">What type of hike do you like?</label>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select your type of hike</option>
+          <option value="1">Day hiking</option>
+          <option value="2">Back packing</option>
+          <option value="3">Past packing</option>
+          <option value="4">Solo hiking</option>
+          <option value="5">Long distance</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="club" id="hike">Are you a member of any hike club?</label>
+        <label id="club"><input type="radio" value="yes" name="hike" id="member">Yes</label>
+        <label id="club"><input type="radio" value="no" name="hike" id="member" checked>No</label>
+      </div>
+      <div class="form-group" required>
+        <label for="list" id="list">Check the list of activities you have participated in the last 12 months</label>
+        <label id="list"><input type="checkbox" name="camping" value="1" id="camping" class="check">Camping</label>
+        <label id="list"><input type="checkbox" name="fishing" value="2" id="Fishing" class="check">Fishing</label>
+        <label id="list"><input type="checkbox" name="cycling" value="3" id="cycling" class="check">Cycing</label>
+        <label id="list"><input type="checkbox" name="watching" value="4" id="watching" class="check">Bird watching</label>
+      </div>
+      <div class="form-group">
+        <p>Any comments or suggestions</p>
+        <textarea id="comments" class="input-textarea" name="comment" placeholder="Additional comments here..."></textarea>
+      </div>
     </form>
   </body>
 </html>

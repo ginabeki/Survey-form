@@ -11,6 +11,19 @@ label {
   font-size: 1rem;
   margin-bottom: 0.5rem; }
 
+input,
+textarea {
+  margin: 7px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+p {
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
 #title {
   text-align: center;
   color: #fff;
@@ -62,3 +75,10 @@ label {
 .form-group {
   margin: 0 auto 2rem auto;
   padding: 0.25rem 1rem 0.25rem 1rem; }
+
+.input-textarea {
+  min-height: 130px;
+  width: 80%;
+  padding: 0.7rem;
+  resize: vertical;
+  border-radius: 0.5rem; }
