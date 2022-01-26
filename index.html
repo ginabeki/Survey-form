@@ -55,7 +55,17 @@
         <label id="club"><input type="radio" value="yes" name="hike" id="member">Yes</label>
         <label id="club"><input type="radio" value="no" name="hike" id="member" checked>No</label>
       </div>
-      
+      <div class="form-group" required>
+        <label for="list" id="list">Check the list of activities you have participated in the last 12 months</label>
+        <label id="list"><input type="checkbox" name="camping" value="1" id="camping" class="check">Camping</label>
+        <label id="list"><input type="checkbox" name="fishing" value="2" id="Fishing" class="check">Fishing</label>
+        <label id="list"><input type="checkbox" name="cycling" value="3" id="cycling" class="check">Cycing</label>
+        <label id="list"><input type="checkbox" name="watching" value="4" id="watching" class="check">Bird watching</label>
+      </div>
+      <div class="form-group">
+        <p>Any comments or suggestions</p>
+        <textarea id="comments" class="input-textarea" name="comment" placeholder="Additional comments here..."></textarea>
+      </div>
     </form>
   </body>
 </html>

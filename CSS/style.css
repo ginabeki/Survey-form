@@ -11,6 +11,19 @@ label {
   font-size: 1rem;
   margin-bottom: 0.5rem; }
 
+input,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+p {
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
 #title {
   text-align: center;
   color: #fff;
@@ -63,13 +76,15 @@ label {
   margin: 0 auto 2rem auto;
   padding: 0.25rem 1rem 0.25rem 1rem; }
 
-#club {
-  float: left;
-  padding: 1em; }
+input [type="radio"] {
+  margin-right: 5px; }
 
-select option:checked {
-  background: #ff9500 -webkit-linear-gradient(bottom, #ff9500 0%, #ff9500 100%); }
+input [type="checkbox"] {
+  margin-right: 5px; }
 
-select option:hover {
-  background: #ff9500 -webkit-linear-gradient(bottom, #ff9500 0%, #ff9500 100%);
-  color: #fff; }
+.input-textarea {
+  min-height: 130px;
+  width: 80%;
+  padding: 0.7rem;
+  resize: vertical;
+  border-radius: 0.5rem; }
