@@ -29,14 +29,15 @@
   color: $color-black;
   background-color: $color-white;
   background-clip: padding-box;
-}
-.form-control:focus {
-  border-color: $color-primary;
-  outline: 0;
+
+  &:focus {
+    border-color: $color-primary;
+    outline: 0;
+  }
 }
 
 .form-group {
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 0 auto;
   padding: 0.25rem 1rem 0.25rem 1rem;
 }
 
