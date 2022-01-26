@@ -13,7 +13,7 @@ label {
 
 input,
 textarea {
-  margin: 0;
+  margin: 7px;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit; }
@@ -75,12 +75,6 @@ p {
 .form-group {
   margin: 0 auto 2rem auto;
   padding: 0.25rem 1rem 0.25rem 1rem; }
-
-input [type="radio"] {
-  margin-right: 5px; }
-
-input [type="checkbox"] {
-  margin-right: 5px; }
 
 .input-textarea {
   min-height: 130px;
