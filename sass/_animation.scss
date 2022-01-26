@@ -1,9 +1,13 @@
-// Submit button animation elements will appear here
 .submit-button {
-  background-color: $color-secondary;
-  color: $color-white;
+  border: none;
+  background-color: #d7263d;
+  color: #fff;
   text-transform: uppercase;
-  padding: 15px 32px;
+  padding: 8px 100px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-left: 135px;
+  display: inline-block;
+  margin-top: 70px;
+  border-radius: 8px;
 }
