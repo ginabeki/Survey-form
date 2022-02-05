@@ -1,0 +1,35 @@
+// COLORS
+$color-primary: #031a6b;
+$color-secondary: #d7263d;
+$color-white: #fff;
+$color-black: #000;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+label {
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  margin: 7px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+p {
+  color: $color-white;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
